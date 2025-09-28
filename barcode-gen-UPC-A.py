@@ -109,7 +109,7 @@ def generate_barcode(barcode, img_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python barcode_gen.py <barcode> <img_location>")
+        print("Usage: python barcode-gen-UPC-A.py <barcode> <img_location>")
     
     barcode = sys.argv[1]
     img_path = sys.argv[2]
